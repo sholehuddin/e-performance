@@ -37,28 +37,10 @@ class AuthController extends Controller {
 	}
 
 	public function postLogin(){
+		$attempt2= Auth::attempt(array('name' => Input::get('name'),
+		'password' => Input::get('password')));
 
-		$email = Input::get('email');
-		$password = Input::get('password');
-		//dd($email);
-		//dd($password);
-		
-
-		if (Auth::attempt(array('username' == Input::get('email'),
-		'password' == Input::get('password'))))
+		 	dd($attempt2);
+		 	}
 		 
-		 dd($attempt);
-		 //if ($email == "email" && $password == "password")
-		 {
-		  return "Login";
-		 exit();
-		 	//Auth::attempt (array('email' => Input::get('email'), 'password' => Input::get('password')));
-		 //return Redirect::to('home')->with('pesan_error','Autenticate Succes');
-
-		 }
-		 //return "Not Login";
-		  //exit();
-
-		 //return Redirect::to('home')->with('pesan_error', 'Login failed, Email or Password is wrong!');
-	}
 }
