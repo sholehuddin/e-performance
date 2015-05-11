@@ -37,6 +37,7 @@ class AuthController extends Controller {
 	}
 
 	public function postLogin(){
+
 		if ($attempt= Auth::attempt(array('username' => Input::get('name'), 'password' => Input::get('password')))){
 			return Redirect::to('home')->with('pesan_error','Autenticate Succes');
 		} else {
