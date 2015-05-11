@@ -4,6 +4,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Input,Hash,Auth,Redirect;
 
 class AuthController extends Controller {
 
@@ -35,4 +36,29 @@ class AuthController extends Controller {
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 
+	public function postLogin(){
+
+		$email = Input::get('email');
+		$password = Input::get('password');
+		//dd($email);
+		//dd($password);
+		
+
+		if (Auth::attempt(array('username' == Input::get('email'),
+		'password' == Input::get('password'))))
+		 
+		 dd($attempt);
+		 //if ($email == "email" && $password == "password")
+		 {
+		  return "Login";
+		 exit();
+		 	//Auth::attempt (array('email' => Input::get('email'), 'password' => Input::get('password')));
+		 //return Redirect::to('home')->with('pesan_error','Autenticate Succes');
+
+		 }
+		 //return "Not Login";
+		  //exit();
+
+		 //return Redirect::to('home')->with('pesan_error', 'Login failed, Email or Password is wrong!');
+	}
 }

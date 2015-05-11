@@ -1,11 +1,11 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Preview\Rencana;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class LoginController extends Controller {
+class PreviewPenetapanKinerjaController extends Controller {
 
 	/**
 	 * Display a listing of the resource.

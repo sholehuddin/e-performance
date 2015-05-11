@@ -45,11 +45,12 @@
                         <h1 class="panel-title"><b>Login</b></h1>
                         <h1 class="panel-title"><b>E-Performance</b></h1>
                     </div>
+                    {!!Form::open(array('route' => 'authenticate')) !!}
                     <div class="panel-body">
-                        <form action="" method="post" enctype="multipart/form-data">
+                        
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                    <input class="form-control" placeholder="E-mail" name="email" type="text" autofocus>
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="Password" name="password" type="password" value="">
@@ -60,10 +61,11 @@
                                     </label>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+                                <button type="submit" class="btn btn-lg btn-success btn-block">Login</button> 
                             </fieldset>
-                        </form>
+                        
                     </div>
+                    </form>
                 </div>
             </div>
         </div>

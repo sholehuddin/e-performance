@@ -1,11 +1,11 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Preview\Realisasi;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class LoginController extends Controller {
+class PreviewCapaianPenetapanKinerjaController extends Controller {
 
 	/**
 	 * Display a listing of the resource.

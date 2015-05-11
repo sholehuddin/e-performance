@@ -11,16 +11,16 @@
                                     <a href="#">Rencana <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="panels-wells.html">Renstra</a>
+                                            <a href="inprenstra">Renstra</a>
                                         </li>
                                         <li>
-                                            <a href="buttons.html">Rencana Kinerja</a>
+                                            <a href="inprakin">Rencana Kinerja</a>
                                         </li>
                                         <li>
-                                            <a href="notifications.html">Rencana Kegiatan</a>
+                                            <a href="inprakeg">Rencana Kegiatan</a>
                                         </li>
                                         <li>
-                                            <a href="notifications.html">Rencana Anggaran</a>
+                                            <a href="inprangga">Rencana Anggaran</a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
@@ -29,10 +29,10 @@
                                     <a href="#">Realisasi <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="panels-wells.html">Kinerja</a>
+                                            <a href="inprelkin">Kinerja</a>
                                         </li>
                                         <li>
-                                            <a href="buttons.html">Anggaran</a>
+                                            <a href="inprelkang">Anggaran</a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
@@ -47,13 +47,13 @@
                                     <a href="#">Perencanaan <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="panels-wells.html">Renstra</a>
+                                            <a href="prevrenstra">Renstra</a>
                                         </li>
                                         <li>
-                                            <a href="buttons.html">Penetapan Kinerja</a>
+                                            <a href="prevpkin">Penetapan Kinerja</a>
                                         </li>
                                         <li>
-                                            <a href="notifications.html">Perencanaan Kegiatan</a>
+                                            <a href="prevpkeg">Perencanaan Kegiatan</a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
@@ -62,13 +62,13 @@
                                     <a href="#">Realisasi <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="panels-wells.html">Capaian Kegiatan</a>
+                                            <a href="prevcakeg">Capaian Kegiatan</a>
                                         </li>
                                         <li>
-                                            <a href="buttons.html">Realisasi Anggaran</a>
+                                            <a href="prevrelkang">Realisasi Anggaran</a>
                                         </li>
                                         <li>
-                                            <a href="buttons.html">Capaian Penetapan Kinerja</a>
+                                            <a href="prevcpkin">Capaian Penetapan Kinerja</a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
