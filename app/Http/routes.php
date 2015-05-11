@@ -17,6 +17,8 @@ Route::get('home', 'HomeController@index');
 //Route::get('authenticate', 'Auth\AuthController@postLogin');
 Route::post('authenticate', array('as' => 'authenticate', 'uses' => 'Auth\AuthController@postLogin'));
 
+Route::get('logout', array('as' => 'logout', 'uses' => 'Auth\AuthController@getLogout'));
+
 //Routes Sidebar
 //Input Rencana
 Route::get('inprenstra', 'Input\Rencana\InputRenstraController@index');

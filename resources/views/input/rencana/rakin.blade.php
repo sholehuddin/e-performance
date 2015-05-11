@@ -10,8 +10,8 @@
                     <div class="form-group">
                         <select class="form-control">
                             <option>-Pilih Tahun-</option>
-                            <option>2015 - 2019</option>
-                            <option>2020 - 2024</option>
+                            <option>2014</option>
+                            <option>2015</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -42,110 +42,237 @@
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
-                                        <tr>
-                                            <th>No.</th>
-                                            <th>Tujuan</th>
-                                            <th>Sasaran Strategis</th>
-                                            <th>Indikator Kinerja</th>
-                                            <th colspan="3">Target</th>
+                                        <style type="text/css">
+                                            #table th {text-align: center;}
+                                            .tw {float: left;width: 50px;}
+                                            .ket_tw {float: left;width: 150px;}
+                                        </style>
+                                        <tr id="table">
+                                            <th rowspan="2">No.</th>
+                                            <th rowspan="2">Tujuan</th>
+                                            <th rowspan="2">Indikator Kinerja (es-I)</th>
+                                            <th rowspan="2">Sasaran Strategis</th>
+                                            <th rowspan="2">Indikator Kinerja</th>
+                                            <th colspan="4">Target</th>
+                                            <th colspan="3">realisasi</th>
+                                            <th rowspan="2">Catatan Monitoring</th>
+                                        </tr>
+                                        <tr id="table">
+                                            <th>Waktu</th>
+                                            <th>Jumlah</th>
+                                            <th>Satuan</th>
+                                            <th>Uraian</th>
+                                            <th>Jumlah</th>
+                                            <th>%</th>
+                                            <th>Uraian</th>                                            
                                         </tr>
                                     </thead>
 
                                     <tbody>
                                         <tr class="odd gradeX">
                                             <td rowspan="3">1</td>
-                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                            </td>
-                                            <td rowspan="3">Terlaksananya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas <p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                            </td>
-                                            <td>% Indeks RB<p>
+                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas</td>
+                                            <td rowspan="3">% Indeks RB</td>
+                                            <td rowspan="3">Tersedianya Sistem Pengelolaan Data dan Informasi Perencanaan Pembangunan Nasional</td>
+                                            <td rowspan="3">% tingkat ketersediaan data dan layanan informasi untuk mendukung perencanaan pembangunan<p>
                                                 <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
                                                 <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
                                                 <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button>
                                             </td>
-                                            <td>Program Peningkatan Sarana dan Prasarana Aparatur</td>
+
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-success'>TERCAPAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
 
                                         <tr>
-                                            <td>Opini BPK<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button></td>
-                                            <td>Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya</td>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-warning'>DALAM PROSES</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>Nilai Evaluasi AKIP<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button></td>
-                                            <td>Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya</td>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-danger'>BELUM MULAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
 
                                         <tr class="even gradeC">
                                             <td rowspan="3">2</td>
-                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                            </td>
-                                            <td rowspan="3">Terlaksananya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas <p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                            </td>
-                                            <td>% Indeks RB<p>
+                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas</td>
+                                            <td rowspan="3">% Indeks RB</td>
+                                            <td rowspan="3">Tersedianya Sistem Pengelolaan Data dan Informasi Perencanaan Pembangunan Nasional</td>
+                                            <td rowspan="3">% tingkat ketersediaan data dan layanan informasi untuk mendukung perencanaan pembangunan<p>
                                                 <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
                                                 <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
                                                 <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button>
                                             </td>
-                                            <td>Program Peningkatan Sarana dan Prasarana Aparatur</td>
-                                        </tr>
 
-                                        <tr>
-                                            <td>Opini BPK<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button></td>
-                                            <td>Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Nilai Evaluasi AKIP<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button></td>
-                                            <td>Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya</td>
-                                        </tr>
-
-                                        <tr class="odd gradeA">
-                                            <td rowspan="3">3</td>
-                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-success'>TERCAPAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
                                             </td>
-                                            <td rowspan="3">Terlaksananya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas <p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                            </td>
-                                            <td>% Indeks RB<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button>
-                                            </td>
-                                            <td>Program Peningkatan Sarana dan Prasarana Aparatur</td>
+                                            <td></td>
                                         </tr>
 
                                         <tr>
-                                            <td>Opini BPK<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button></td>
-                                            <td>Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya</td>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-warning'>DALAM PROSES</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
-
+                                        
                                         <tr>
-                                            <td>Nilai Evaluasi AKIP<p>
-                                                <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button></td>
-                                            <td>Program Dukungan Manajemen dan Pelaksanaan Tugas Teknis Lainnya</td>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-danger'>TIDAK TERCAPAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

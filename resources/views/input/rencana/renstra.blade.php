@@ -42,7 +42,12 @@
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
-                                        <tr>
+                                        <style type="text/css">
+                                            #table th {text-align: center;}
+                                            .tw {float: left;width: 50px;}
+                                            .ket_tw {float: left;width: 150px;}
+                                        </style>
+                                        <tr id="table">
                                             <th>No.</th>
                                             <th>Tujuan</th>
                                             <th>Sasaran Strategis</th>

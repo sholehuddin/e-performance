@@ -12,6 +12,12 @@ class InputRakinController extends Controller {
 	 *
 	 * @return Response
 	 */
+	public function __construct()
+	{
+		$this->middleware('auth');
+		//$this->middleware('guest');
+	}
+	
 	public function index()
 	{
 		return view('input\rencana\rakin');
