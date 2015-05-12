@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class InputRelkangController extends Controller {
+class InputRelkegController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -20,7 +20,7 @@ class InputRelkangController extends Controller {
 	
 	public function index()
 	{
-		return view('dashboard');
+		return view('input\realisasi\kegiatan');
 	}
 
 	/**

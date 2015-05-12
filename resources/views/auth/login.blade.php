@@ -45,6 +45,21 @@
                         <h1 class="panel-title"><b>Login</b></h1>
                         <h1 class="panel-title"><b>E-Performance</b></h1>
                     </div>
+                    @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+
+{{--                     <div class="alert alert-danger">
+                        Maaf Username dan Password yang Anda masukkan <a href="#" class="alert-link">TIDAK COCOK</a>.
+                    </div> --}}
+
                     {!!Form::open(array('route' => 'authenticate')) !!}
                     <div class="panel-body">
                         

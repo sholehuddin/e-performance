@@ -28,7 +28,7 @@ Route::get('inprangga', 'Input\Rencana\InputRanggaController@index');
 
 //Input Realisasi
 Route::get('inprelkin', 'Input\Realisasi\InputRelkinController@index');
-Route::get('inprelkang', 'Input\Realisasi\InputRelkangController@index');
+Route::get('inprelkeg', 'Input\Realisasi\InputRelkegController@index');
 
 //Preview Perencana
 Route::get('prevrenstra', 'Preview\Rencana\PreviewRenstraController@index');

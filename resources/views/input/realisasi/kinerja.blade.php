@@ -4,9 +4,16 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">Input Realisasi Data Penetapan kinerja ...</h1>
                 </div>
                 <div class="col-lg-4">
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>-Pilih Tahun-</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                        </select>
+                    </div>
                     <div class="form-group">
                         <select class="form-control">
                             <option>-Unit Kerja-</option>
@@ -24,385 +31,299 @@
             </div>
             <!-- /.row -->
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">12 Unit Kerja</div>
-                                    <div>Dalam Proses Kinerja</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">13 Unit Kerja</div>
-                                    <div>Belum Input Kinerja</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">26 Unit Kerja</div>
-                                    <div>Dalam Proses Anggaran</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-support fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">13 Unit Kerja</div>
-                                    <div>Belum Input Anggaran   </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-8">
-
+                <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Donut Chart Example
-                        </div>
-                        <div class="panel-body">
-                            <div id="morris-donut-chart"></div>
-                            <a href="#" class="btn btn-default btn-block">View Details</a>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-hover table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Date</th>
-                                                    <th>Time</th>
-                                                    <th>Amount</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>3326</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:29 PM</td>
-                                                    <td>$321.33</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3325</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:20 PM</td>
-                                                    <td>$234.34</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3324</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:03 PM</td>
-                                                    <td>$724.17</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3323</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>3:00 PM</td>
-                                                    <td>$23.71</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3322</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:49 PM</td>
-                                                    <td>$8345.23</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3321</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:23 PM</td>
-                                                    <td>$245.12</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3320</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:15 PM</td>
-                                                    <td>$5663.54</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3319</td>
-                                                    <td>10/21/2013</td>
-                                                    <td>2:13 PM</td>
-                                                    <td>$943.45</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- /.table-responsive -->
-                                </div>
-                                <!-- /.col-lg-4 (nested) -->
-                                <div class="col-lg-8">
-                                    <div id="morris-bar-chart"></div>
-                                </div>
-                                <!-- /.col-lg-8 (nested) -->
-                            </div>
-                            <!-- /.row -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-8 -->
-                <div class="col-lg-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-tasks fa-fw"></i> Detail Indikator
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item">
-                                    <p>
-                                        <i class="fa fa-bolt fa-fw"></i><strong> Tidak Tercapai</strong>
-                                        <span class="pull-right text-muted">5 Indikator</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a href="#" class="list-group-item">
-                                    <p>
-                                        <i class="fa fa-warning fa-fw"></i><strong> Dalam Proses</strong>
-                                        <span class="pull-right text-muted">5 Indikator</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                                        </div>
-                                    </div>
-                                </a>
-
-
-                                <a href="#" class="list-group-item">
-                                    <p>
-                                        <i class="fa fa-upload fa-fw"></i><strong> Belum Dimulai</strong>
-                                        <span class="pull-right text-muted">5 Indikator</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <a href="#" class="list-group-item">
-                                    <p>
-                                        <i class="fa fa-money fa-fw"></i><strong> Tercapai</strong>
-                                        <span class="pull-right text-muted">5 Indikator</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- /.list-group -->
-                            <a href="#" class="btn btn-default btn-block">Total Indikator : <b>20</b> Indikator</a>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-money fa-fw"></i> Detail Anggaran
+                            Penetapan Kinerja Tahun ...
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="table-responsive">
-                                <table class="table">
+                                <table class="table table-striped table-bordered table-hover">
                                     <thead>
-                                        <tr>
-                                            <th>Triwulan</th>
-                                            <th>Rencana</th>
-                                            <th>Realisasi</th>
+                                        <style type="text/css">
+                                            #table th {text-align: center;}
+                                            .tw {float: left;width: 50px;}
+                                            .ket_tw {float: left;width: 150px;}
+                                        </style>
+                                        <tr id="table">
+                                            <th rowspan="2">No.</th>
+                                            <th rowspan="2">Tujuan</th>
+                                            <th rowspan="2">Indikator Kinerja (es-I)</th>
+                                            <th rowspan="2">Sasaran Strategis</th>
+                                            <th rowspan="2">Indikator Kinerja</th>
+                                            <th colspan="4">Target</th>
+                                            <th colspan="3">realisasi</th>
+                                            <th rowspan="2">Catatan Monitoring</th>
+                                        </tr>
+                                        <tr id="table">
+                                            <th>Waktu</th>
+                                            <th>Jumlah</th>
+                                            <th>Satuan</th>
+                                            <th>Uraian</th>
+                                            <th>Jumlah</th>
                                             <th>%</th>
+                                            <th>Uraian</th>                                            
                                         </tr>
                                     </thead>
+
                                     <tbody>
-                                        <tr class="success">
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
+                                        <tr class="odd gradeX">
+                                            <td rowspan="3">1</td>
+                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas</td>
+                                            <td rowspan="3">% Indeks RB</td>
+                                            <td rowspan="3">Tersedianya Sistem Pengelolaan Data dan Informasi Perencanaan Pembangunan Nasional</td>
+                                            <td rowspan="3">% tingkat ketersediaan data dan layanan informasi untuk mendukung perencanaan pembangunan</td>
+
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-success'>TERCAPAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
-                                        <tr class="info">
-                                            <td>2</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
+
+                                        <tr>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-warning'>DALAM PROSES</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
-                                        <tr class="warning">
-                                            <td>3</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
+                                        
+                                        <tr>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-danger'>BELUM MULAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
-                                        <tr class="danger">
-                                            <td>4</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
+
+                                        <tr class="even gradeC">
+                                            <td rowspan="3">2</td>
+                                            <td rowspan="3">Tercapainya peningkatan kapasitas kelembagaan Kementerian PPN/ Bappenas</td>
+                                            <td rowspan="3">% Indeks RB</td>
+                                            <td rowspan="3">Tersedianya Sistem Pengelolaan Data dan Informasi Perencanaan Pembangunan Nasional</td>
+                                            <td rowspan="3">% tingkat ketersediaan data dan layanan informasi untuk mendukung perencanaan pembangunan</td>
+
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-success'>TERCAPAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-warning'>DALAM PROSES</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>12 Bulan</td>
+                                            <td>91</td>
+                                            <td>%</td>
+                                            <td></td>
+                                            <td>91</td>
+                                            <td>100</td>
+                                            <td>
+                                                <div>
+                                                    <label class='label label-danger'>TIDAK TERCAPAI</label>
+                                                </div>
+                                                <div style="width: 200px;">
+                                                    <div class="tw">TW_1</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_2</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_3</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <div class="tw">TW_4</div>
+                                                    <div class="ket_tw">Terselenggaranya layanan pengelolaan data statistik, data spasial, pustaka dan arsip</div>
+                                                </div>
+                                                <div>
+                                                    <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-pencil"></i></button>
+                                                </div>
+                                            </td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
-                                    <thead>
-                                        <tr>
-                                            <th>Total</th>
-                                            <th>0</th>
-                                            <th>0</th>
-                                            <th>80%</th>
-                                        </tr>
-                                    </thead>
                                 </table>
                             </div>
                             <!-- /.table-responsive -->
-                                <a href="#" class="list-group-item">
-                                    <p>
-                                        <i class="fa fa-tasks fa-fw"></i><strong> Presentasi Realisasi</strong>
-                                        <span class="pull-right text-muted">80%</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- /.list-group -->
                         </div>
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
                 </div>
-                <!-- /.col-lg-4 -->
+                <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
-
     </div>
     <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+                responsive: true
+        });
+    });
+    </script>
 
 </body>
 </html>

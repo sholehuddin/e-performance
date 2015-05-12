@@ -1,6 +1,9 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
+                        <div style="width: 160px;">
+                            <img src="http://musrenbangnas.bappenas.go.id/favicon.ico" alt=""/>
+                        </div>
                         <li>
                             <a href="home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
@@ -32,7 +35,7 @@
                                             <a href="inprelkin">Kinerja</a>
                                         </li>
                                         <li>
-                                            <a href="inprelkang">Anggaran</a>
+                                            <a href="inprelkeg">Kegiatan</a>
                                         </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
