@@ -1,3 +1,11 @@
+            <?php $user=Auth::User();
+                $role=$user->role;
+                $name=$user->nama;
+                $kd_surat=$user->kode_surat;
+                $grup=$user->id_group;
+                $id_user=$user->id;
+            ?>
+
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
@@ -13,15 +21,19 @@
                                 <li>
                                     <a href="#">Rencana <span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
-                                        <li>
-                                            <a href="inprenstra">Renstra</a>
-                                        </li>
+                                        @if($role != '3')
+                                            <li>
+                                                <a href="inprenstra">Renstra</a>
+                                            </li>
+                                        @endif
                                         <li>
                                             <a href="inprakin">Rencana Kinerja</a>
                                         </li>
-                                        <li>
-                                            <a href="inprakeg">Rencana Kegiatan</a>
-                                        </li>
+                                        @if($role != '2')
+                                            <li>
+                                                <a href="inprakeg">Rencana Kegiatan</a>
+                                            </li>
+                                        @endif
                                         <li>
                                             <a href="inprangga">Rencana Anggaran</a>
                                         </li>

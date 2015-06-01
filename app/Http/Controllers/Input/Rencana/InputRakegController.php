@@ -20,7 +20,7 @@ class InputRakegController extends Controller {
 	
 	public function index()
 	{
-		return view('input\rencana\rakeg');
+		return view('input.rencana.rakeg');
 	}
 
 	/**

@@ -19,12 +19,20 @@ Route::post('authenticate', array('as' => 'authenticate', 'uses' => 'Auth\AuthCo
 
 Route::get('logout', array('as' => 'logout', 'uses' => 'Auth\AuthController@getLogout'));
 
+//test
+Route::get('test', 'Cetak\TestController@index');
+
 //Routes Sidebar
 //Input Rencana
 Route::get('inprenstra', 'Input\Rencana\InputRenstraController@index');
+Route::post('addrenstra', array('as' => 'addrenstra', 'uses' => 'Input\Rencana\InputRenstraController@store'));
+Route::post('inprenstra', array('as' => 'inprenstra', 'uses' => 'Input\Rencana\InputRenstraController@index'));
+
 Route::get('inprakin', 'Input\Rencana\InputRakinController@index');
 Route::get('inprakeg', 'Input\Rencana\InputRakegController@index');
+
 Route::get('inprangga', 'Input\Rencana\InputRanggaController@index');
+Route::post('addrangga', array('as' => 'addrangga', 'uses' => 'Input\Rencana\InputRanggaController@store'));
 
 //Input Realisasi
 Route::get('inprelkin', 'Input\Realisasi\InputRelkinController@index');

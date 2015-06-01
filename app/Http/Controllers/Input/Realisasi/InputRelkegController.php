@@ -20,7 +20,7 @@ class InputRelkegController extends Controller {
 	
 	public function index()
 	{
-		return view('input\realisasi\kegiatan');
+		return view('input.realisasi.kegiatan');
 	}
 
 	/**

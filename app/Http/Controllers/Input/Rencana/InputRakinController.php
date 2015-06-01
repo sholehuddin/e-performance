@@ -20,7 +20,7 @@ class InputRakinController extends Controller {
 	
 	public function index()
 	{
-		return view('input\rencana\rakin');
+		return view('input.rencana.rakin');
 	}
 
 	/**

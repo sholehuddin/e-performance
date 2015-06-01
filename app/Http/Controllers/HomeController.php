@@ -1,5 +1,12 @@
 <?php namespace App\Http\Controllers;
 
+//use App\Model\mail;
+//use App\User;
+//use App\Model\inboxe;
+//use App\Model\drafte;
+//use App\Model\importante;
+use Auth,Input,View,Redirect,Validator,DB,Request,Response,Datatables,Image;
+
 class HomeController extends Controller {
 
 	/*
@@ -31,8 +38,13 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
+
+		$uk=DB::table('uk')->orderBy('id_group','asc')->get();
+
+		return View::make('dashboard')->with('uk',$uk);
+
 		//return view('dashboard');
-		return view('dashboard2');
+		//return view('dashboard2');
 	}
 
 }

@@ -1,0 +1,42 @@
+/* 
+    Text fields 
+*/
+.input-group-option:last-child > div .input-group-addon-remove > span {
+    display: none;
+}
+
+.input-group-option:last-child  > div .form-control > input{
+    border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.input-group-option > div .input-group-addon-remove > span {
+	cursor: pointer;
+}
+
+.input-group-option > div {
+    margin-bottom: 3px;
+}
+
+/* 
+    Selects 
+*/
+
+.input-group-multiple-select:last-child > div .input-group-addon-remove > span {
+	display: none;
+}
+
+.input-group-multiple-select:last-child > div .form-control > input {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.input-group-multiple-select > div .input-group-addon-remove > span {
+	cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.input-group-multiple-select > div {
+    margin-bottom: 5px;
+}

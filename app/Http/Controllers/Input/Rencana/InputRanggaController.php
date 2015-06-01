@@ -20,7 +20,7 @@ class InputRanggaController extends Controller {
 	
 	public function index()
 	{
-		return view('input\rencana\rangga');
+		return view('input.rencana.rangga');
 	}
 
 	/**
@@ -40,7 +40,7 @@ class InputRanggaController extends Controller {
 	 */
 	public function store()
 	{
-		//
+		var_dump($_POST);
 	}
 
 	/**

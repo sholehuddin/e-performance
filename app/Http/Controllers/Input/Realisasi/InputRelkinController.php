@@ -20,7 +20,7 @@ class InputRelkinController extends Controller {
 	
 	public function index()
 	{
-		return view('input\realisasi\kinerja');
+		return view('input.realisasi.kinerja');
 	}
 
 	/**
